@@ -30,3 +30,11 @@ services:
   App\Service\ParserService:
     - '@App\Parser\RbcParser'
 
+#  parser.second:
+#    class: 'App\Service\ParserService'
+#    arguments:
+#      - '@App\Parser\SecondParser'
+#
+#  App\Command\SecondParserCommand:
+#    - '@parser.second'
+
