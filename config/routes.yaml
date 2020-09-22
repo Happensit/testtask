@@ -1,0 +1,9 @@
+news_list:
+    path: /
+    controller: App\Controller\NewsController::list
+
+news_show:
+    path: /news/{id}
+    controller: App\Controller\NewsController::show
+    requirements:
+        id: '\d+'
